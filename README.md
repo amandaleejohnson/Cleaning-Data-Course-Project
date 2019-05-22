@@ -52,9 +52,10 @@ I created one R script called run_analysis.R that does the following:
         7.	fBody = Frequency Domain Body
     *	Maintain the lack of white spaces
     *	For readability, capitalizing each word (I found the variable names in all lowercase to be difficult to read).
-7.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-•	Being someone who is most experienced in Stata, I found a great resource that explains how the Stata command “collapse” can be equivalently completed in R using the doBy package: https://stats.idre.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/        
+7.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+    * Being someone who is most experienced in Stata, I found a great resource that explains how the Stata command “collapse” can be equivalently completed in R using the doBy package: https://stats.idre.ucla.edu/r/faq/how-can-i-collapse-my-data-in-r/        
 8.	Creates codebooks for the combined and average tidy data sets using dataMaid
+    * The codebook includes information about the study design, variables (including units!) in the data set not contained in the tidy data, information about the summary choices you made, and information about the experimental study design you used
 9.	Uploads the average tidy data set as a txt file created with write.table()
 # Acknowledgments
 •	Thank you to David Hood and his helpful blog, https://thoughtfulbloke.wordpress.com
